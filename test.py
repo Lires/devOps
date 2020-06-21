@@ -1,6 +1,6 @@
 class Animal():
     def actualizarAnimal(self):
-        print("Acaba de adquirir un can!")
+        print("Acaba de adquirir un can!!")
 
 class Can():
 
