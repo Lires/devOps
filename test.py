@@ -1,21 +1,20 @@
 class Animal():
     def actualizarAnimal(self):
-        print("Acaba de adquirir un can!!")
+        print("Acaba de adqurir un perro!")
 
-class Can():
+class Perro():
 
     __come="si"
 
 
-    def __init__(self,raza,nome):
-        print("WOAH WOAH!!!")
+    def __init__(self,raza,nombre):
         self.raza=raza
-        self.nome=nome
-        print("Raza "+str(self.raza)+" con nome "+str(self.nome)+"!!")
+        self.nombre=nombre
+        print("Perro de raza "+str(self.raza)+" con nombre "+str(self.nombre)+".")
 
     def sentar(self):
         print("")
-        print(" O can "+str(self.nome)+" estase sentando según túas ordes.")
+        print(" El perro "+str(self.nome)+" se está sentando según tus ordenes.")
         print("   ")
         print("""    
                                                                                 
@@ -49,16 +48,16 @@ class Can():
                             ;fLLfLttLtL ;fffLLLLL;                                                                                                                                             
                                   """)
 
-    def cagar(self):
+    def ladrar(self):
         print("")
-        print("      ()")
-        print("     (  )")
-        print("    (    )")
-        print(" O can de raza "+str(self.raza)+", con nombre "+str(self.nome)+" está cagando!")
+        print("     /")
+        print("     --  )")
+        print("     \")
+        print(" El perro de raza "+str(self.raza)+", con nombre "+str(self.nombre)+" está ladrando!")
     
 
     def __darPata(self):
-        print("solo me da a pata a min!")
+        print("Solo me dá la pata en privado!")
 
     @staticmethod
     def saludarPrivadoStatic():
@@ -71,11 +70,11 @@ class Can():
         Can.saludarPrivadoStatic()
 
     def comer(self):
-        print("Come? "+str(self.__come))
+        print("¿Come? "+str(self.__come))
 
     def notificarAnimal(self):
         Animal.actualizarAnimal(self)
 
-meuCan=Can("palleiro","Cobi")
-meuCan.saludarPublico()
+miPerro=Perro("Pastor Belga","Rufus")
+miPerro.saludarPublico()
 
