@@ -1,7 +1,0 @@
-{
-    "test":{"hola":"hello"},
-    "birthdays": [
-    {"name": "Jose", "birthday": "31/05/1993"},
-    {"name": "Ramona", "birthday": "31/05/1991"}
-    ]
-}
